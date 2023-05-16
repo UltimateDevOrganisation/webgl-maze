@@ -16,12 +16,12 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-warning"></div>
-      <!-- <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">MazeGame</div>
-      </div> -->
+      <!-- <div id="unity-warning"></div> -->
+      <!-- <div id="unity-footer"> -->
+      <!-- <div id="unity-webgl-logo"></div> -->
+      <!-- <div id="unity-fullscreen-button"></div> -->
+      <!-- <div id="unity-build-title">MazeGame</div> -->
+      <!-- </div> -->
     </div>
     <script>
       var container = document.querySelector("#unity-container");
@@ -99,9 +99,10 @@
 
         // canvas.style.width = "960px";
         // canvas.style.height = "600px";
-        console.log(window.innerWidth, window.innerHeight);
-        canvas.style.width = window.innerWidth + "px"; //document.width is obsolete
-        canvas.style.height = window.innerHeight + 5 + "px"; //document.height is obsolete
+        // canvas.style.width = window.innerWidth + "px"; //document.width is obsolete
+        // canvas.style.height = window.innerHeight + 5 + "px"; //document.height is obsolete
+        canvas.style.width = "100vw";
+        canvas.style.height = "100vh";
       }
 
       loadingBar.style.display = "block";
