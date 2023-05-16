@@ -37,7 +37,7 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    display: none
+    /* display: none */
 }
 
 #unity-logo {
@@ -49,11 +49,23 @@ body {
     background-position: center;
 }
 
+.progress {
+    background: url('load.svg');
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 20px;
+    left: 49%;
+    z-index: 999999;
+}
+
 #unity-progress-bar-empty {
     width: 141px;
     height: 18px;
+    position: fixed;
     margin-top: 10px;
-    margin-left: 6.5px;
+    top: 0;
+    left: 50%;
     background: url('progress-bar-empty-dark.png') no-repeat center
 }
 
